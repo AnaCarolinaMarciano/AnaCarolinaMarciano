@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Imagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TÍTULO</h1>
+    <p>TEXTO</p>
+    <div class="image-container">
+        <img src="https://via.placeholder.com/600x400" alt="Descrição da Imagem">
+        <p class="caption">Legenda da Imagem</p>
+        <p class="description">Descrição da imagem detalhada vai aqui.</p>
+    </div>
+</body>
+</html>
+
+css
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+}
+
+.image-container {
+    margin: 20px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.caption {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.description {
+    font-style: italic;
+}
