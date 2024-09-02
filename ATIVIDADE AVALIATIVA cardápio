@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Hambúrgueres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio de Hambúrgueres</h1>
+    </header>
+    <main>
+        <section class="menu-item">
+ <img src="https://www.rodrigobrito.com.br/wp-content/uploads/2021/09/hamburger.jpg&quot; alt="Hambúrguer Clássico">
+            <div class="description">
+                <h2>Hambúrguer Clássico</h2>
+                <p>Um hambúrguer suculento de carne bovina, queijo cheddar, alface, tomate, cebola e picles, servido em um pão macio. Acompanhado de batatas fritas crocantes.</p>
+            </div>
+        </section>
+        <section class="menu-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEU8u2eRwtrU5vEPe5ApP-5b2rF_haFFLw2A&st="Hambúrguer Gourmet">
+            <div class="description">
+                <h2>Hambúrguer Gourmet</h2>
+                <p>Hambúrguer de carne angus com queijo gorgonzola, cebola caramelizada e molho de mostarda e mel, servido em um pão de brioche. Acompanha chips de batata-doce.</p>
+            </div>
+        </section>
+        <section class="menu-item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTERUTExMVFhUXGBgaGRcYGBoYGBgXFxgXFxoXGBgYHSggGBolHRcaITEhJSktLy4uFx8zODMtNygtLisBCgoKDg0OGxAQGy8mHyYtLy01Ly0tLS8tLy81LS01Ly0uLS0tLSsvLS0tLS0tLS0tLy0tLS0tLS0tLS4tLS0tLf/AABEIAMEBBQMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAEDBAYCBwj/xABAEAACAQIEBAQDBQYEBwADAAABAhEAAwQSITEFQVFhBhMicTKBkUJSobHwBxQjwdHhM2JyghUWNDVzsvEkQ2P/xAAaAQACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QALREAAgIBBAECBAYDAQAAAAAAAAECAxEEEiExQRNRIjJhcQUUQpGx8IGh0cH/2gAMAwEAAhEDEQA/APMopRXcUoqgiOKUV3FKKhDiKaK7ilFQhxFNFXOHcPe9cFu2JJ+g7k8q0vCPDS22LYkTBGVZ0bXc9qVZdCvsbXTOz5UZGzh2YgKpM7QKvWuAYljAtN8631y8LZ9KKqIZVhsBz96GY7irMVZAVUNvPqI5k1ilrpeIm6OgXlgax4IxTbhV9zVg+Ab4gllC826VoeF8QLeZFy4CnqEwRlH3jy1rn/mK4EVnVoJIE/AxG5/tS/zloX5OBnf+Q8QZhlIHPr7ULxfhrE2xJtkjtrtXoeC8Ul98qRrPUDkP81SpxO1eYKLrJrs32gT+FSOuszyVLRRweQOhBggg9CIpq9W4xwW3eDeZDQCRcXkBsARXnnGuDNYI1LKRIaIj3rdVqI2cdMx26eUOfALNNNImuSwrSZx6YmkTXJqEHJpppqVWUKaU01KahB6aaalNQg80prmaU1CDzSmuZppqEOpppppppqEHmlTUqhA1FNFdU1AGcxSp6aoCNU2CwpuOEGk8+g61DNbrwLwBXAuEEsT9AKCye1Dqa98seAzwjBp5Qt4VCpEZmj1XDz15Cir8FBJZ1JIHWSTH4VqcDgFtJoAKE+JMUtqFB1glgNSewrH6OFmT5N0budsFhGawuCts91HBICjciJ5AdTWZ8QYdlCvKgMzKq/a9JjajvDuIrnu3/wDBtqAozGSbh+72FA7mGFpr2IvzcKMMg5MzeoMTt3ikSWTRvY9i2llEd84aTmB2YctOdRXcl9yLcqEQtDsInnl7npXXHGV7ga/ehvKLQBK5vsqpGhnr2rMWCWOk+9L9PJfqIJ2bxB05Gr4um42YiATyGgH9K48OcHe+0yQg0YjX1ckA5sZ/qRWm8u1aAk5j0U6AdNNz+HvyVZGMexsG5dD4VHt2yhe2bebUiS+UxOg0A9yKWMvW/huWXNl9BqFEGTJnWJ6H51Z88G2tw22yhoLnUxI0QRAIB37/AEo2TdvYksiFnklFLH0kahmIiYAOmg/KhjKS5RJQTTyPg+HWc63rPkKVAJXJbWArCVWBJY6eoR8QEzUvEXt27ZW5aCm7nUpoAgOqu3lp6jqN5Iy6HeYP3m61i6SWuSQc3IkZQYIHIAGBpuaBHi1xZIYhiCCecHeJ29xrRb5Z8gKlfQNt+7raW2GF4DXM1iVt6zAUkFD3Bg60/wDwy2UK3cPh2t5xnuBfJ1KkgiLeZWgxmAPP3FPgGE84Es/pBhrasBcaBIZVYgNqfwNEb3CTeszazq6Pk8pnDMfTmzGYyySQAB7VcZzXRUq6+mZ+94bweeCrBQQS9m6XWGJ9LF1MdNADpzqlxPwcgulbV5lzE5Fu22gqTpldCxYAdVqa0biyCDEwekj8/wC9HLuK8pLRKLcDCZbLcUxGwiUYA5SJpsdXbHzkCejqfg894xwW9h3ZXXMo/wD2oGNoz0eAN9I66UNNehnGuSwDNlYyyMcyN2ZWkN86y3iDg5QtctqAm5Vfse0kyv5Vu0+tjY9" alt="Hambúrguer Vegetariano">            <div class="description">
+                <h2>Hambúrguer Vegetariano</h2>
+                <p>Delicioso hambúrguer feito de grão-de-bico e quinoa, com queijo feta, tomate, alface e molho de iogurte. Servido em um pão integral com batatas rústicas.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+  <p>&copy; 12/04/2024 Burger House. Trabalho Ana Carolina Machado Marciano.</p>/
+    </footer>
+</body>
+</html>
+
+font-family: Arial, sans-serif;body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    display: flex;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.description {
+    padding: 15px;
+    flex: 1;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
