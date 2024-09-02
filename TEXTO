@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #4A90E2;
+            font-size: 24px;
+        }
+        .highlighted {
+            background-color: yellow;
+        }
+        .italic {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título da Página</h1>
+    <p>Este é um texto de exemplo para a página HTML.</p>
+    <p class="highlighted">Esta é uma frase marcada.</p>
+    <p class="italic">Esta é uma frase em itálico.</p>
+</body>
+</html>
