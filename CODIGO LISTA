@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Minha Lista</h1>
+    <input type="text" id="itemInput" placeholder="Digite um item">
+    <button onclick="addItem()">Adicionar</button>
+    <ul id="itemList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#itemInput {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+function addItem() {
+    const input = document.getElementById('itemInput');
+    const itemList = document.getElementById('itemList');
+
+    if (input.value.trim() === '') return;
+
+    const li = document.createElement('li');
+    li.textContent = input.value;
+    itemList.appendChild(li);
+
+    input.value = '';
+}
